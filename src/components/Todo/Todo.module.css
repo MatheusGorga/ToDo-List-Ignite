@@ -1,0 +1,20 @@
+.todo {
+  width: 736px;
+  height: 72px;
+  display: grid;
+  grid-template-columns: 30px 1fr 30px;
+  gap: 8px;
+  padding: 16px;
+  align-items: start;
+  justify-items: stretch;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.todo button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+}
