@@ -18,3 +18,11 @@
   border: 0;
   color: var(--gray-300);
 }
+
+.todo + .todo {
+  margin-top: 12px;
+}
+
+.todo .completed {
+  text-decoration: line-through;
+}
